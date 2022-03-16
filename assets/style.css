@@ -1,0 +1,741 @@
+/* @import url("https://fonts.googleapis.com/css?family=Muli:wght@400;700;900&display=swap"); */
+@import url("https://use.typekit.net/qbb8ieo.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Font */
+
+.f-muli {
+  font-family: muli;
+  font-weight: 400;
+}
+
+.f-roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.f-poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.section-header {
+  margin: 60px 0 60px 0;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 700;
+  font-size: 45px;
+  color: #19345e;
+}
+
+.title-section::before,
+.title-section::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #f47522;
+}
+
+.sub-title {
+  font-family: muli;
+  font-weight: 700;
+  color: #19345e;
+}
+
+.bg-main {
+  background: url(../assets/img/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+
+.bg-main-2 {
+  background: url(../assets/img/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 300px;
+}
+
+.link-none-decoration {
+  text-decoration: none;
+  font-family: muli;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #19345e;
+}
+
+.link-none-decoration:hover {
+  text-decoration: none;
+  font-family: muli;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #f47522;
+}
+
+/* Navbar */
+.navbar {
+  font-weight: 700;
+  box-shadow: 0px 3px 6px #c1c3c736;
+  /* min-height: 90px; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #19345e;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #f47522;
+}
+
+.btn-orange {
+  background: transparent;
+  border: 1px solid #f47522;
+  border-radius: 50px;
+  color: #f47522;
+  font-weight: 700;
+  padding: 5px 37px;
+}
+
+.btn-orange:hover {
+  background: #f47522;
+  border: 1px solid #f47522;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 5px 37px;
+}
+
+/* jumbotron */
+.jumbotron {
+  background: #edf6ff;
+  min-height: 90vh;
+}
+
+.img-jumbotron {
+  width: 45vh;
+}
+
+#tag-1 {
+  font-weight: 900;
+  font-size: 25px;
+  color: #19345e;
+  margin-bottom: 14px;
+}
+
+#tag-2 {
+  font-weight: 900;
+  font-size: 45px;
+  color: #19345e;
+  margin-bottom: 14px;
+}
+
+.jumbotron #tag-2 span {
+  color: #f47522;
+}
+
+#tag-caption {
+  font-weight: 700;
+  color: #19345e;
+  font-size: 1.1rem;
+}
+
+/* panel */
+
+.bar-panel {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 100px;
+  padding: 36px 93px 36px 93px;
+}
+
+.rounded-panel {
+  background-color: #f47522;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.img-panel {
+  width: 30px;
+  height: 30px;
+}
+
+.container .bar-panel h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #19345e;
+}
+
+.container .bar-panel p {
+  font-size: 14px;
+  color: #19345e;
+}
+
+/* about */
+.bg-about {
+  background: linear-gradient(90deg, rgba(25, 52, 94, 0.65) 0%, rgba(25, 52, 94, 0.65) 50%, rgba(25, 52, 94, 0.65) 100%), url(../assets/img/bg-people@2x.png);
+  background-size: cover;
+  min-height: 484px;
+}
+
+.bg-about h1 {
+  font-family: muli;
+  font-weight: 700;
+  font-size: 55px;
+  color: #ffffff;
+}
+
+.bg-about p {
+  font-family: muli;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Meet Team */
+.profile-team {
+  position: relative;
+}
+
+#mt-profile {
+  margin-top: 5vh;
+}
+
+.border-img-team-1-orange {
+  position: relative;
+  border: 10px solid #f47522;
+  width: 225px;
+  height: 265px;
+  z-index: 1 !important;
+}
+
+.border-img-team-1-navy {
+  position: relative;
+  border: 10px solid #19345e;
+  width: 225px;
+  height: 265px;
+  z-index: 1 !important;
+}
+
+.img-team {
+  position: absolute;
+  width: 225px;
+  height: 265px;
+  margin-top: -18px;
+  margin-left: 21px;
+}
+
+.img-team-shadow {
+  position: absolute;
+  width: 225px;
+  height: 265px;
+  margin-top: -18px;
+  margin-left: 21px;
+  box-shadow: 0px 10px 10px #19345e8e;
+}
+
+.bg-main .profile-team h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #f47522;
+}
+
+.bg-main .profile-team p {
+  font-family: "Poppins", sans-serif;
+  color: #19345e;
+}
+
+/* late post */
+.container .late-post .card {
+  width: 18rem;
+}
+
+.container .late-post .card-body {
+  flex: 1 1 auto;
+  padding: 3rem 0 0 0;
+  background: transparent;
+  color: #19345e;
+}
+
+.container .late-post .card-title {
+  font-weight: 700;
+  color: #19345e;
+}
+
+.container .late-post .date-post * {
+  color: #707070;
+}
+
+.link-post {
+  color: #19345e;
+}
+
+.link-post:hover {
+  color: #f47522;
+}
+
+/* Footer */
+footer {
+  margin: 10vh 0 0 0;
+  background: #19345e;
+  min-height: 141px;
+}
+
+#ic-footer {
+  width: 1.5rem;
+}
+
+/* Page Team */
+.border-img-team-lg-orange {
+  position: relative;
+  border: 10px solid #f47522;
+  width: 320px;
+  height: 399px;
+  margin: 17px 0 0 0;
+  z-index: 1 !important;
+}
+
+.border-img-team-lg-navy {
+  position: relative;
+  border: 10px solid #19345e;
+  width: 320px;
+  height: 399px;
+  margin: 17px 0 0 0;
+  z-index: 1 !important;
+}
+
+.img-team-lg {
+  position: absolute;
+  width: 320px;
+  height: 399px;
+  margin: 0 0 0 25px;
+}
+
+.title-job {
+  font-family: muli;
+  font-weight: 700;
+  color: #19345e;
+  font-size: 30px;
+}
+
+.label-experience {
+  font-family: muli;
+  font-weight: 700;
+  color: #19345e;
+  font-size: 25px;
+}
+
+.list-experience {
+  color: #19345e;
+  margin: 1.2rem 0 0 0;
+}
+
+.list-experience li {
+  padding: 0 0 0.5rem 0;
+}
+
+.list-experience img {
+  width: 20px;
+}
+
+#table-info-team {
+  color: #19345e;
+  font-size: 1.2rem;
+  padding-top: 2px;
+}
+
+#table-info-team td {
+  padding: 1rem 0 0 0;
+}
+
+.border-top-bottom {
+  border-top: 1px dashed #aaaaaa;
+  border-bottom: 1px dashed #aaaaaa;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* title section */
+  .title-section {
+    font-size: 2.5rem;
+  }
+
+  .sub-title {
+    font-size: 1.3rem;
+  }
+
+  /* jumbotron */
+  .img-jumbotron {
+    width: 50vh;
+    margin: 1.2rem 0 1.2rem 0;
+  }
+
+  #tag-1 {
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #19345e;
+    margin-bottom: 14px;
+  }
+
+  #tag-2 {
+    font-weight: 900;
+    font-size: 4.2rem;
+    color: #19345e;
+    margin-bottom: 14px;
+  }
+
+  #tag-caption {
+    font-weight: 700;
+    color: #19345e;
+    font-size: 2.1rem;
+  }
+
+  /* Panel */
+  .bar-panel {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    padding: 36px 93px 36px 93px;
+  }
+
+  .container .bar-panel h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #19345e;
+  }
+
+  .container .bar-panel p {
+    font-size: 1rem;
+    color: #19345e;
+  }
+
+  .rounded-panel {
+    background-color: #f47522;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .container .bar-panel .border-start {
+    border-left: 0px solid #dee2e6 !important;
+  }
+
+  .container .bar-panel .border-end {
+    border-right: 0px solid #dee2e6 !important;
+  }
+
+  .container .bar-panel .flex-column {
+    padding-top: 11px;
+  }
+
+  /* about */
+  .bg-about {
+    background: linear-gradient(90deg, rgba(25, 52, 94, 0.65) 0%, rgba(25, 52, 94, 0.65) 50%, rgba(25, 52, 94, 0.65) 100%), url(../assets/img/bg-people@2x.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 484px;
+  }
+
+  .bg-about p {
+    font-size: 1.3rem;
+  }
+
+  /* Meet Team */
+
+  .profile-team {
+    position: relative;
+    /* padding: 0 12vw 0 15vw; */
+  }
+
+  #mt-profile {
+    margin-top: 0;
+  }
+
+  .border-img-team-1-orange {
+    position: relative;
+    border: 15px solid #f47522;
+    width: 450px;
+    height: 530px;
+    z-index: 1 !important;
+  }
+
+  .border-img-team-1-navy {
+    position: relative;
+    border: 15px solid #19345e;
+    width: 450px;
+    height: 530px;
+    z-index: 1 !important;
+  }
+
+  .img-team {
+    position: absolute;
+    width: 450px;
+    height: 530px;
+    margin-top: -18px;
+    margin-left: 21px;
+  }
+
+  .img-team-shadow {
+    position: absolute;
+    width: 450px;
+    height: 530px;
+    margin-top: -18px;
+    margin-left: 21px;
+    box-shadow: 0px 10px 10px #19345e8e;
+  }
+
+  .bg-main .profile-team h4 {
+    font-size: 2rem;
+  }
+
+  .bg-main .profile-team p {
+    font-size: 1.5rem;
+  }
+
+  .link-none-decoration {
+    font-size: 1.5rem;
+  }
+
+  .link-none-decoration:hover {
+    font-size: 1.5rem;
+  }
+
+  /* late post */
+
+  .container .late-post .card-body {
+    font-size: 1.5rem;
+  }
+
+  .container .late-post .card {
+    width: 35rem;
+    /* margin: 0 0vw 0 10vw; */
+  }
+
+  .container .late-post .card-title {
+    font-size: 2.5rem;
+  }
+
+  .container .late-post .date-post * {
+    font-size: 1.3rem;
+  }
+
+  /* footer */
+  footer {
+    margin: 10vh 0 0 0;
+    padding: 1rem 0 1rem 0;
+    font-size: 1.3rem;
+  }
+
+  #ic-footer {
+    width: 2.2rem;
+  }
+
+  /* Page our team */
+  .label-experience {
+    font-size: 30px;
+  }
+
+  .list-experience {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) {
+  .title-section {
+    font-size: 2rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  }
+
+  /* Navbar */
+  .btn-orange {
+    background: transparent;
+    border: 1px solid #f47522;
+    border-radius: 50px;
+    color: #f47522;
+    padding: 5px 37px;
+    margin: 1rem 0 0 0;
+  }
+
+  /* jumbotron */
+
+  .img-jumbotron {
+    width: 90vw;
+    margin: 1.2rem 0 1.2rem 0;
+  }
+
+  #tag-1 {
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #19345e;
+    margin-bottom: 14px;
+  }
+
+  #tag-2 {
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: #19345e;
+    margin-bottom: 14px;
+  }
+
+  #tag-caption {
+    font-weight: 700;
+    color: #19345e;
+    font-size: 1.1rem;
+  }
+
+  /* panel */
+  .bar-panel {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px;
+    padding: 36px 93px 36px 93px;
+  }
+
+  .rounded-panel {
+    background-color: #f47522;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .container .bar-panel h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #19345e;
+  }
+
+  .container .bar-panel p {
+    font-size: 1rem;
+    color: #19345e;
+  }
+
+  .container .bar-panel .border-start {
+    border-left: 0px solid #dee2e6 !important;
+  }
+
+  .container .bar-panel .border-end {
+    border-right: 0px solid #dee2e6 !important;
+  }
+
+  .container .bar-panel .flex-column {
+    padding-top: 0px;
+  }
+
+  /* about */
+  .bg-about h1 {
+    font-family: muli;
+    font-weight: 700;
+    font-size: 6vh;
+    color: #ffffff;
+  }
+
+  .bg-about p {
+    font-size: 1rem;
+  }
+
+  /* Meet Team */
+
+  .profile-team {
+    position: relative;
+    padding: 0 12vw 0 12vw;
+  }
+
+  .border-img-team-1-orange {
+    position: relative;
+    border: 10px solid #f47522;
+    width: 225px;
+    height: 265px;
+    z-index: 1 !important;
+  }
+
+  .border-img-team-1-navy {
+    position: relative;
+    border: 10px solid #19345e;
+    width: 225px;
+    height: 265px;
+    z-index: 1 !important;
+  }
+
+  .img-team {
+    position: absolute;
+    width: 225px;
+    height: 265px;
+    margin-top: -18px;
+    margin-left: 21px;
+  }
+
+  .img-team-shadow {
+    position: absolute;
+    width: 225px;
+    height: 265px;
+    margin-top: -18px;
+    margin-left: 21px;
+    box-shadow: 0px 10px 10px #19345e8e;
+  }
+
+  .bg-main .profile-team h4 {
+    font-size: 1.3rem;
+  }
+
+  .bg-main .profile-team p {
+    font-size: 1rem;
+  }
+
+  .link-none-decoration {
+    font-size: 1rem;
+  }
+
+  .link-none-decoration:hover {
+    font-size: 1rem;
+  }
+
+  /* Late post */
+  .container .late-post .card {
+    width: 20rem;
+    margin: 0 0vw 0 4vw;
+  }
+
+  .container .late-post .card-body {
+    font-size: 1rem;
+  }
+
+  .container .late-post .card-title {
+    font-size: 1.5rem;
+  }
+
+  .container .late-post .date-post * {
+    font-size: 0.9rem;
+  }
+
+  /* footer */
+  footer {
+    margin: 10vh 0 0 0;
+    padding: 1rem 0 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  #ic-footer {
+    width: 1.2rem;
+  }
+
+  /* Page our team */
+  .label-experience {
+    font-size: 1.5rem;
+  }
+
+  .list-experience {
+    font-size: 1rem;
+  }
+}
